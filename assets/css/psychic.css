@@ -1,0 +1,80 @@
+/*This is the setting to prep my styles.*/
+
+html {
+    height: 100%;
+    background-color: lightgrey;
+}
+body {
+    height: 100%;
+    width: 100%;
+    font-weight: bold;
+    font-family: 'Noto Sans', sans-serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+/*This contains Flexbox postioning code*/
+div#gameName {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+div#rulesContainer {
+    display: flex;
+    justify-content: center;
+}
+div#imageContainer {
+    display: flex;
+    justify-content: center;
+}
+/*This will contain background color for my container*/
+div#gameContainer {
+    border-radius: 12px;
+    background-color: #344055;
+    padding: 30px;
+}
+/*This contains my general styling code*/
+img {
+    border-radius: 6px;
+}
+h1 {
+    font-style: italic;
+    color: #48e5c2;
+    padding: auto;
+    font-size: 40px;
+    margin-bottom: 17px;
+}
+#catchPhrase {
+    font-size: 20px;
+    margin-top: 10px;
+    color: #48e5c2;
+}
+p#gameRules {
+    margin-top: 7px;
+    margin-bottom: 5px;
+    line-height: 1.3;
+}
+p {
+    font-size: 16px;
+    color: #FCFAF9;
+    line-height: 2;
+}
+/*media query*/
+@media screen and (max-width: 430px) {
+    img {
+        height: 210px;
+        width: 210px;
+    }
+    h1 {
+        font-size: 20px;
+    }
+    #catchPhrase {
+        font-size: 14px;
+    }
+    p {
+        font-size: 10px;
+    }
+
+}
