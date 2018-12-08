@@ -29,6 +29,10 @@ div#imageContainer {
     display: flex;
     justify-content: center;
 }
+#scores {
+    display: flex;
+    justify-content: center;
+}
 /*This will contain background color for my container*/
 div#gameContainer {
     border-radius: 12px;
@@ -48,7 +52,7 @@ h1 {
 }
 #catchPhrase {
     font-size: 20px;
-    margin-top: 10px;
+    margin-top: 16px;
     color: #48e5c2;
 }
 p#gameRules {
@@ -59,7 +63,7 @@ p#gameRules {
 p {
     font-size: 16px;
     color: #FCFAF9;
-    line-height: 2;
+    line-height: 1.6;
 }
 /*media query*/
 @media screen and (max-width: 430px) {
